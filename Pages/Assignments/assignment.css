@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+tr {
+  display: flex;
+  gap: 17em;
+  list-style: none;
+  margin-top: 30px;
+}
+
+.right {
+  margin: 0 45em;
+}
+
+@media only screen and (max-width: 800px) {
+  .right {
+    margin: 20em 5em;
+  }
+  img {
+    width: 275px;
+  }
+  tr {
+    gap: 20px;
+  }
+}/*# sourceMappingURL=assignment.css.map */
