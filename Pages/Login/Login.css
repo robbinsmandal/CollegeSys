@@ -23,7 +23,7 @@ body {
 li {
   text-decoration: none;
   list-style: none;
-  border: 2px solid lavenderblush;
+  /* border: 2px solid lavenderblush; */
   width: 10rem;
   height: 31px;
 }

@@ -7,12 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment</title>
     <link rel="stylesheet" href="assignment.css">
+    <link rel="stylesheet" href="../../Reusables/Sidebar/Sidebar.css">
 </head>
 
 <body>
     <?php
-    include_once("../Reusables/Sidebar/Sidebar.php");
-    include_once("../Reusables/Sidebar/Sidebar.css");
+    include_once("../../Reusables/Sidebar/Sidebar.php");
     ?>
     <div class="left">
         <table>

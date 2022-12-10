@@ -8,11 +8,13 @@
         Calendar
     </title>
     <link rel="stylesheet" href="calender.css">
+    <link rel="stylesheet" href="../../Reusables/Sidebar/Sidebar.css">
 </head>
 
 <body class="light">
- 
-
+    <?php
+    require_once("../../Reusables/Sidebar/Sidebar.php")
+        ?>
     <div class="calendar">
         <div class="calendar-header">
             <span class="month-picker" id="month-picker">February</span>

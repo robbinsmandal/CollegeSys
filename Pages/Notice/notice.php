@@ -57,7 +57,7 @@
         <dd><a href="#">Maguro</a></dd>
       </dl>
 
-      <a href="../Main/Home.html" class="toggle">Home</a>
+      <a href="../Main/Home.php" class="toggle">Home</a>
     </section>
   </body>
 </html>
