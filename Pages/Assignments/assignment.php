@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,15 @@
     <title>Assignment</title>
     <link rel="stylesheet" href="assignment.css">
 </head>
+
 <body>
+    <?php
+    include_once("../Reusables/Sidebar/Sidebar.php");
+    include_once("../Reusables/Sidebar/Sidebar.css");
+    ?>
     <div class="left">
         <table>
-<!-- <ul>
+            <!-- <ul>
     <li>
         Date
     </li>
@@ -21,18 +27,19 @@
         Assignment
     </li>
 </ul> -->
-<tr>
-    <th>Date</th>
-    <th>Subject</th>
-    <th>Assignment</th>
-</tr>
+            <tr>
+                <th>Date</th>
+                <th>Subject</th>
+                <th>Assignment</th>
+            </tr>
 
-</table>
+        </table>
     </div>
     <div class="right">
-<div class="picture">
-    <img src="../../assets/images/student.webp" alt="images" width="600px">
-</div>
+        <div class="picture">
+            <img src="../../assets/images/student.webp" alt="images" width="600px">
+        </div>
     </div>
 </body>
+
 </html>
