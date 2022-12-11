@@ -8,12 +8,14 @@
     <title>Food Menu</title>
     <link rel="stylesheet" href="food.css">
     <link rel="stylesheet" href="../../Reusables/Sidebar/Sidebar.css">
+    <link rel="stylesheet" href="../../Reusables/Sidebar/Sidebar.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
-<body>
+<body class="light">
     <?php
-    include_once("../../Reusables/Sidebar/Sidebar.php");
-    ?>
+    require_once("../../Reusables/Sidebar/Sidebar.php")
+        ?>
     <div class="main">
         <div class="section-title">
             <h2>our menu</h2>
@@ -87,6 +89,8 @@
     </div>
     </div>
     </div>
+    <script src="../../Reusables/Sidebar/Sidebar.js"></script>
+
 
 </body>
 

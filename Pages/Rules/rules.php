@@ -8,12 +8,13 @@
   <title>Rules And Regulations</title>
   <link rel="stylesheet" href="rules.css" />
   <link rel="stylesheet" href="../../Reusables/Sidebar/Sidebar.css">
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
-<body>
+<body class="light">
   <?php
-    include_once("../../Reusables/Sidebar/Sidebar.php");
-    ?>
+    require_once("../../Reusables/Sidebar/Sidebar.php")
+      ?>
   <div class="rules">
     <ul>
       <li>Students should be punctual</li>
@@ -31,6 +32,8 @@
       </li>
     </ul>
   </div>
+  <script src="../../Reusables/Sidebar/Sidebar.js"></script>
+
 </body>
 
 </html>

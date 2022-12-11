@@ -8,12 +8,13 @@
     <title>Login Page</title>
     <link rel="stylesheet" href="./Login.css">
     <link rel="stylesheet" href="../../Reusables/Sidebar/Sidebar.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
-<body>
-    <?php
-    include_once("../../Reusables/Sidebar/Sidebar.php");
-    ?>
+<body class="light">
+  <?php
+    require_once("../../Reusables/Sidebar/Sidebar.php")
+      ?>
     <div class="main">
         <div class="heading">
             <h2>Login As</h2>
@@ -43,6 +44,8 @@
 
 
     </div>
+    <script src="../../Reusables/Sidebar/Sidebar.js"></script>
+
 </body>
 
 </html>

@@ -9,6 +9,7 @@
     </title>
     <link rel="stylesheet" href="calender.css">
     <link rel="stylesheet" href="../../Reusables/Sidebar/Sidebar.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body class="light">
@@ -52,6 +53,7 @@
     </div>
 
     <script src="./calender.js"></script>
+    <script src="../../Reusables/Sidebar/Sidebar.js"></script>
 </body>
 
 </html>

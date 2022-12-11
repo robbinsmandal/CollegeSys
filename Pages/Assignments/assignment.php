@@ -8,12 +8,14 @@
     <title>Assignment</title>
     <link rel="stylesheet" href="assignment.css">
     <link rel="stylesheet" href="../../Reusables/Sidebar/Sidebar.css">
+    <link rel="stylesheet" href="../../Reusables/Sidebar/Sidebar.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
-<body>
+<body class="light">
     <?php
-    include_once("../../Reusables/Sidebar/Sidebar.php");
-    ?>
+    require_once("../../Reusables/Sidebar/Sidebar.php")
+        ?>
     <div class="left">
         <table>
             <!-- <ul>
@@ -40,6 +42,8 @@
             <img src="../../assets/images/student.webp" alt="images" width="600px">
         </div>
     </div>
+    <script src="../../Reusables/Sidebar/Sidebar.js"></script>
+
 </body>
 
 </html>

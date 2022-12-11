@@ -6,8 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Notice</title>
     <link rel="stylesheet" href="./notice.css" />
-  </head>
-  <body>
+    <link rel="stylesheet" href="../../Reusables/Sidebar/Sidebar.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body class="light">
+    <?php
+    require_once("../../Reusables/Sidebar/Sidebar.php")
+        ?>
     <header class="header">
       <hgroup>
         <h1>Notice Board</h1>
@@ -59,5 +65,7 @@
 
       <a href="../Main/Home.php" class="toggle">Home</a>
     </section>
+    <script src="../../Reusables/Sidebar/Sidebar.js"></script>
+
   </body>
 </html>
